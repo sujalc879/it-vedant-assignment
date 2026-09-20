@@ -11,6 +11,9 @@
   <link rel="stylesheet" href="css/components.css">
   <link rel="stylesheet" href="css/responsive.css">
 
+  <!-- Header Web Component -->
+  <script src="js/header.js"></script>
+
   <style>
     /* Dashboard Specific & SPA Utility Styles */
     .dashboard-banner {
@@ -196,33 +199,8 @@
 </head>
 <body>
 
-  <!-- ================= NAVIGATION HEADER ================= -->
-  <header class="navbar">
-    <div class="container">
-      <div class="nav-brand-group">
-        <a href="#home" class="brand-logo" data-view-target="home">
-          <img src="assets/icons/classiq-logo.svg" alt="ClassIQ Logo">
-          ClassIQ
-        </a>
-
-        <ul class="nav-links">
-          <li><a href="#home" class="nav-link nav-link-item active" data-view-target="home">Home</a></li>
-          <li><a href="#courses" class="nav-link nav-link-item" data-view-target="courses">Courses</a></li>
-          
-          <li class="mobile-nav-actions">
-            <a href="#login" class="btn-dark" data-view-target="login" style="text-align: center;">Login</a>
-            <a href="#signup" class="btn-lime" data-view-target="signup" style="width: 100%; font-size: 0.95rem; padding: 12px; text-align: center;">SignUp</a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="nav-actions">
-        <a href="#login" class="btn-dark nav-btn-login" data-view-target="login">Login</a>
-        <a href="#signup" class="btn-dark nav-btn-signup" data-view-target="signup">SignUp</a>
-        <button class="hamburger-menu" aria-label="Toggle Navigation">☰</button>
-      </div>
-    </div>
-  </header>
+  <!-- ================= REUSABLE NAVIGATION HEADER ================= -->
+  <app-header></app-header>
 
   <!-- Mobile Menu Backdrop Overlay -->
   <div class="nav-overlay" id="nav-overlay"></div>

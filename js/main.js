@@ -31,6 +31,11 @@ function navigateToView(targetViewId) {
   }
 
   // Update Navbar Active state
+  document.querySelectorAll('app-header').forEach(headerEl => {
+    if (typeof headerEl.updateActiveState === 'function') {
+      headerEl.updateActiveState();
+    }
+  });
   document.querySelectorAll('.nav-link-item').forEach(link => {
     const linkTarget = link.getAttribute('data-view-target') || link.getAttribute('href');
     if (linkTarget && linkTarget.replace('#', '').toLowerCase() === targetViewId) {
@@ -38,6 +43,12 @@ function navigateToView(targetViewId) {
     } else {
       link.classList.remove('active');
     }
+  });
+  document.querySelectorAll('.nav-btn-login').forEach(btn => {
+    btn.classList.toggle('active', targetViewId === 'login');
+  });
+  document.querySelectorAll('.nav-btn-signup').forEach(btn => {
+    btn.classList.toggle('active', targetViewId === 'signup');
   });
 
   // Re-trigger reveal animations for elements inside the target view

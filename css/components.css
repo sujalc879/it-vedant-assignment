@@ -94,6 +94,12 @@
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
 }
 
+.btn-dark.active {
+  background-color: #27272A;
+  border-color: #27272A;
+  box-shadow: 0 0 0 2px var(--primary-lime);
+}
+
 .hamburger-menu {
   visibility: hidden;
   display: none;
