@@ -1,0 +1,7 @@
+<svg width="110" height="36" viewBox="0 0 110 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M9.5 17a2.5 2.5 0 1 1 2.5 2.5H9.5V17zm0-6a2.5 2.5 0 0 1 2.5-2.5A2.5 2.5 0 0 1 14.5 11v6H12A2.5 2.5 0 0 1 9.5 11z" fill="#E01E5A"/>
+  <path d="M12 24.5a2.5 2.5 0 1 1-2.5-2.5H12v2.5zm6 0a2.5 2.5 0 0 1 2.5 2.5A2.5 2.5 0 0 1 18 29.5h-6V27a2.5 2.5 0 0 1 2.5-2.5z" fill="#36C5F0"/>
+  <path d="M25.5 19a2.5 2.5 0 1 1-2.5-2.5h2.5V19zm0 6a2.5 2.5 0 0 1-2.5 2.5A2.5 2.5 0 0 1 20.5 25v-6H23a2.5 2.5 0 0 1 2.5 2.5z" fill="#2EB67D"/>
+  <path d="M23 11.5a2.5 2.5 0 1 1 2.5 2.5H23v-2.5zm-6 0a2.5 2.5 0 0 1-2.5-2.5A2.5 2.5 0 0 1 17 6.5h6V9a2.5 2.5 0 0 1-2.5 2.5z" fill="#ECB22E"/>
+  <text x="34" y="24" font-family="'Inter', system-ui, -apple-system, sans-serif" font-weight="800" font-size="21" fill="#1D1C1D">slack</text>
+</svg>
